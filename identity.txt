@@ -54,4 +54,15 @@
 			</Item>
 		</Relationships>	
 	</Item>
+	<Item type="Ans_Project" action="add">
+		<name>MyProject06</name>
+		<Relationships>
+			<Item type="Ans_Project_Ans_SimRequest" action="add">
+				<related_id>
+					<Item type="Ans_SimulationRequest" action="get" id="995CACEBDFC94CCA9C9C1915A6C39797">
+					</Item>
+				</related_id>
+			</Item>
+		</Relationships>	
+	</Item>
 </AML>
